@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+    margin-left: 15%;
+    background-color:white;
+    margin-bottom: 90px;    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;    
+}
+header svg{
+    width: 19%;
+}
+hr {
+    border: none;
+    height: 1px; 
+    background-color: black;
+    width: 100%; 
+    margin:1px; 
+}
+.search-bar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input{
+    padding: 6px;
+    padding-left: 16px;
+}
+.search-bar i{
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    left: 17px;
+}
+.search-bar button{
+    padding: 7.9px 7.9px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    position: relative;
+    right: 10px;
+    border: none;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+}
+.first-child{
+    height: 200px;
+    width: 100%;
+    margin: 2%;
+}
+.first-child img{
+    width: 190px;
+}
+.hr{
+    color: black;
+    font-weight: bold;
+    height: 2px;
+}
+.arrow-side{
+    display: flex;
+
+}
+.arrow-side i{
+    color: darkred;
+    text-decoration: underline;
+    font-size: 11px;
+    margin-left: 5px;
+}
+.first-child p{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 3px;
+} 
+.first-child span{
+    font-size: 11px;
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+}
+.second-line{
+    display: flex;
+    flex-direction: row;
+}
+.third-line{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: azure;
+}
+.logo{
+    color: red;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    padding: 3px;
+}
+.shital {
+    font-size: 50px;
+    margin: 0 auto;  
+    text-align: center; 
+    width: 50%;  
+    display: block;  
+    margin-top: 0;  
+}
+.first-line{
+    margin-bottom: 50px;
+    padding-left: 20px;
+    
+}
+.second-line{
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+.third-line{
+    margin-bottom: 50px; 
+    padding-left: 20px;   
+}
+.headings{
+    color:#D02424;
+    margin-right: 580px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.horizontal{
+    margin-bottom: 5%;
+}
+.last-heading{
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    section {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 12px;
+    }
+
+    header {
+        height: 55px;
+    }
+
+    header svg {
+        width: 35%;
+    }
+
+    .search-bar input {
+        width: 90%;
+        font-size: 16px;
+        padding: 14px 5px;
+        padding-left: 20px;
+    }
+
+    .search-bar button {
+        padding: 17px 10px;
+        right: 3px;
+    }
+
+    .search-bar i{
+        font-size: 15px;
+    }
+
+    .first-child {
+        height: auto;
+    }
+
+    .first-child img {
+        width: 380px;
+        margin-left: 3%;
+    }
+
+    .first-line,
+    .second-line,
+    .third-line {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+        padding-left: 0;
+    }
+
+    .shital {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .headings {
+        font-size: 16px;
+        margin-right: 211px;
+    }
+
+    .arrow-side i {
+        font-size: 13px;
+    }
+
+    .first-child p{
+        font-size: 16px;
+        margin: 1%;
+    }
+    .first-child span{
+        font-size: 12px;
+        margin: 1%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
